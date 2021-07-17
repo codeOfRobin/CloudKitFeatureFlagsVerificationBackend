@@ -1,16 +1,13 @@
 use Mix.Config
 
 # Configure your database
-# config :cloudkit_feature_flags_verification, CloudkitFeatureFlagsVerification.Repo,
-#   username: "postgres",
-#   password: "postgres",
-#   database: "cloudkit_feature_flags_verification_dev",
-#   hostname: "localhost",
-#   show_sensitive_data_on_connection_error: true,
-#   pool_size: 10
-
 config :cloudkit_feature_flags_verification, CloudkitFeatureFlagsVerification.Repo,
-  database: "data/dev.db"
+  username: "postgres",
+  password: "postgres",
+  database: "cloudkit_feature_flags_verification_dev",
+  hostname: "localhost",
+  show_sensitive_data_on_connection_error: true,
+  pool_size: 10
 
 # For development, we disable any cache and enable
 # debugging and code reloading.
