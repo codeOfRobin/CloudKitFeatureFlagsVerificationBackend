@@ -2,8 +2,8 @@ use Mix.Config
 
 # Configure your database
 config :cloudkit_feature_flags_verification, CloudkitFeatureFlagsVerification.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "test_user",
+  password: "workbox-rodeo-forecast-rectify-taxiderm",
   database: "cloudkit_feature_flags_verification_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
