@@ -26,6 +26,8 @@ defmodule CloudkitFeatureFlagsVerificationWeb.ConnCase do
 
       alias CloudkitFeatureFlagsVerificationWeb.Router.Helpers, as: Routes
 
+      import CloudkitFeatureFlagsVerification.Factory
+
       # The default endpoint for testing
       @endpoint CloudkitFeatureFlagsVerificationWeb.Endpoint
     end
